@@ -19,6 +19,25 @@ for (fruit in fruits){
     console.log(fruit)
 }
 
+// Vòng lặp while
+let j = 0
+while (j < fruits.length){
+    console.log(fruits[j][1] + " " + fruits[j][0]);
+    j++;
+}
+
+// Vòng lặp do while
+let e = 0
+do{
+    console.log(fruits[e][1] + " " + fruits[e][0]);
+    e++;
+}
+while (e < fruits.length);
+
+
+
+
+
 // Bài 3
 var myDog = {
     "name": "Ngáo",
